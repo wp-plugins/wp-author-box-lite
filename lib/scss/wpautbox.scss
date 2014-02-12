@@ -1,0 +1,253 @@
+//import compass
+@import "compass";
+
+@font-face {
+  font-family: 'wpautbox-fontello';
+  src: url('../fonts/fontello/fontello.eot?76834511');
+  src: url('../fonts/fontello/fontello.eot?76834511#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/fontello.woff?76834511') format('woff'),
+       url('../fonts/fontello/fontello.ttf?76834511') format('truetype'),
+       url('../fonts/fontello/fontello.svg?76834511#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.a-tabs{
+	#wpautbox_about{
+		.wpautbox-avatar{
+			float: left;
+			margin: 0px 15px 5px 0px;
+		}
+	}
+	.a-tab-content{
+		word-wrap:break-word;
+		ul{
+			// margin: 0px;
+			// padding: 0px;
+			margin-left: 1.5em;
+		}
+	}
+	.a-tab-nav li .wpautbox-icon{
+		line-height: 1.125em;
+		font-size: 0.9em;
+		vertical-align: middle;
+	}
+
+	.a-tab-nav{
+		li{
+			a:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+.wpautbox-socials{
+	position: relative;
+	z-index: 50;
+	display:block;
+	padding:5px 10px;
+	border-top:solid 1px #eee;
+	background: rgba(224,224,224, 0.1);
+
+	a{
+		text-decoration: none;
+		padding: 0px;
+		margin:0px;
+		border: 0px;
+	}
+
+	.wpautbox-icon{
+		font-family: 'wpautbox-fontello';
+		font-size: 16px;
+		position: relative;
+		@include inline-block;
+		margin: 5px;
+
+		// &.wpautbox-icon-youtube{
+		// 	font-family: 'wpautbox-fontello';
+		// 	font-size: 18px;
+		// }
+
+		&:before{
+			display: block;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			speak: none;
+		}
+
+		//social icons
+		&.wpautbox-icon-youtube:before{ content:'\e82e'; }
+		&.wpautbox-icon-github:before{ content:'\e800'; }
+		&.wpautbox-icon-c-github:before{ content:'\e800'; }
+		&.wpautbox-icon-flickr:before{ content:'\e801'; }
+		&.wpautbox-icon-c-flickr:before{ content:'\e801'; }
+		&.wpautbox-icon-vimeo:before{ content:'\e802'; }
+		&.wpautbox-icon-c-vimeo:before{ content:'\e802'; }
+		&.wpautbox-icon-twitter:before{ content:'\e803'; }
+		&.wpautbox-icon-c-twitter:before{ content:'\e803'; }
+		&.wpautbox-icon-facebook:before{ content:'\e804'; }
+		&.wpautbox-icon-c-facebook:before{ content:'\e804'; }
+		&.wpautbox-icon-s-facebook:before{ content:'\e804'; }
+		&.wpautbox-icon-googleplus:before{ content:'\e805'; }
+		&.wpautbox-icon-c-googleplus:before{ content:'\e805'; }
+		&.wpautbox-icon-pinterest:before{ content:'\e806'; }
+		&.wpautbox-icon-c-pinterest:before{ content:'\e806'; }
+		&.wpautbox-icon-tumblr:before{ content:'\e807'; }
+		&.wpautbox-icon-c-tumblr:before{ content:'\e807'; }
+		&.wpautbox-icon-linkedin:before{ content:'\e808'; }
+		&.wpautbox-icon-c-linkedin:before{ content:'\e808'; }
+		&.wpautbox-icon-dribbble:before{ content:'\e809'; }
+		&.wpautbox-icon-c-dribbble:before{ content:'\e809'; }
+		&.wpautbox-icon-stumbleupon:before{ content:'\e80a'; }
+		&.wpautbox-icon-c-stumbleupon:before{ content:'\e80a'; }
+		&.wpautbox-icon-lastfm:before{ content:'\e80b'; }
+		&.wpautbox-icon-c-lastfm:before{ content:'\e80b'; }
+		&.wpautbox-icon-rdio:before{ content:'\e80c'; }
+		&.wpautbox-icon-c-rdio:before{ content:'\e80c'; }
+		&.wpautbox-icon-spotify:before{ content:'\e80d'; }
+		&.wpautbox-icon-c-spotify:before{ content:'\e80d'; }
+		&.wpautbox-icon-qq:before{ content:'\e80e'; }
+		&.wpautbox-icon-instagram:before{ content:'\e80f'; }
+		&.wpautbox-icon-dropbox:before{ content:'\e810'; }
+		&.wpautbox-icon-evernote:before{ content:'\e811'; }
+		&.wpautbox-icon-flattr:before{ content:'\e812'; }
+		&.wpautbox-icon-skype:before{ content:'\e813'; }
+		&.wpautbox-icon-c-skype:before{ content:'\e813'; }
+		&.wpautbox-icon-renren:before{ content:'\e814'; }
+		&.wpautbox-icon-sina-weibo:before{ content:'\e815'; }
+		&.wpautbox-icon-paypal:before{ content:'\e816'; }
+		&.wpautbox-icon-picasa:before{ content:'\e817'; }
+		&.wpautbox-icon-soundcloud:before{ content:'\e818'; }
+		&.wpautbox-icon-mixi:before{ content:'\e819'; }
+		&.wpautbox-icon-behance:before{ content:'\e81a'; }
+		&.wpautbox-icon-google-circles:before{ content:'\e81b'; }
+		&.wpautbox-icon-vk:before{ content:'\e84e'; }
+		&.wpautbox-icon-smashing:before{ content:'\e81d'; }
+
+		&.wpautbox-icon-foursquare:before{ content:'\e83d'; }
+		&.wpautbox-icon-reddit:before{ content:'\e824'; }
+		&.wpautbox-icon-quora:before{ content:'\e836'; }
+		&.wpautbox-icon-deviantart:before{ content:'\e864'; }
+		&.wpautbox-icon-steam:before{ content:'\e835'; }
+		&.wpautbox-icon-slideshare:before{ content:'\e842'; }
+		&.wpautbox-icon-rss:before{ content:'\e831'; }
+	}
+
+	.wpautbox-textonly{
+		font-size: 0.8em;
+		line-height: 1em;
+		padding: 3px;
+	}
+	&.wpautbox-socials-circle{
+		.wpautbox-icon{
+			@include border-radius(50%);
+		}
+	}
+
+	&.wpautbox-socials-colored{
+		.wpautbox-icon{
+			color: #fff;
+
+			//social icons
+			&.wpautbox-icon-youtube{ background: #CD332D; }
+			&.wpautbox-icon-github{ background: #4183C4; }
+			&.wpautbox-icon-c-github{ background: #4183C4; }
+			&.wpautbox-icon-flickr{ background: #0063DB; }
+			&.wpautbox-icon-c-flickr{ background: #0063DB; }
+			&.wpautbox-icon-vimeo{ background: #44BBFF; }
+			&.wpautbox-icon-c-vimeo{ background: #44BBFF; }
+			&.wpautbox-icon-twitter{ background: #00ACED; }
+			&.wpautbox-icon-c-twitter{ background: #00ACED; }
+			&.wpautbox-icon-facebook{ background: #3B5998; }
+			&.wpautbox-icon-c-facebook{ background: #3B5998; }
+			&.wpautbox-icon-s-facebook{ background: #3B5998; }
+			&.wpautbox-icon-googleplus{ background: #D14836; }
+			&.wpautbox-icon-c-googleplus{ background: #D14836; }
+			&.wpautbox-icon-pinterest{ background: #CB2027; }
+			&.wpautbox-icon-c-pinterest{ background: #CB2027; }
+			&.wpautbox-icon-tumblr{ background: #2C4762; }
+			&.wpautbox-icon-c-tumblr{ background: #2C4762; }
+			&.wpautbox-icon-linkedin{ background: #007FB1; }
+			&.wpautbox-icon-c-linkedin{ background: #007FB1; }
+			&.wpautbox-icon-dribbble{ background: #EA4C89; }
+			&.wpautbox-icon-c-dribbble{ background: #EA4C89; }
+			&.wpautbox-icon-stumbleupon{ background: #EB4924; }
+			&.wpautbox-icon-c-stumbleupon{ background: #EB4924; }
+			&.wpautbox-icon-lastfm{ background: #D51007; }
+			&.wpautbox-icon-c-lastfm{ background: #D51007; }
+			&.wpautbox-icon-rdio{ background: #006ED2; }
+			&.wpautbox-icon-c-rdio{ background: #006ED2; }
+			&.wpautbox-icon-spotify{ background: #80B719; }
+			&.wpautbox-icon-c-spotify{ background: #80B719; }
+			&.wpautbox-icon-qq{ ; }
+			&.wpautbox-icon-instagram{ background: #3F729B; }
+			&.wpautbox-icon-dropbox{ background: #2281CF; }
+			&.wpautbox-icon-evernote{ background: #6BB130; }
+			&.wpautbox-icon-flattr{ background: #F67C1A; }
+			&.wpautbox-icon-skype{ background: #00AFF0; }
+			&.wpautbox-icon-c-skype{ background: #00AFF0; }
+			&.wpautbox-icon-renren{ ; }
+			&.wpautbox-icon-sina-weibo{ background: #E6162D; }
+			&.wpautbox-icon-paypal{ background: #2e689a; }
+			&.wpautbox-icon-picasa{ background: #4B5D5F; }
+			&.wpautbox-icon-soundcloud{ background: #FF6600; }
+			&.wpautbox-icon-mixi{ ; }
+			&.wpautbox-icon-behance{ background: #1769FF; }
+			&.wpautbox-icon-google-circles{ background: #245DC1; }
+			&.wpautbox-icon-vk{ ; }
+			&.wpautbox-icon-smashing{ background: #E95C33; }
+
+			&.wpautbox-icon-foursquare{ background: #2398C9; }
+			&.wpautbox-icon-reddit{ background: #FF4500; }
+			&.wpautbox-icon-quora{ background: #A82400; }
+			&.wpautbox-icon-deviantart{ background: #4B5D50; }
+			&.wpautbox-icon-steam{ background: #000000; }
+			&.wpautbox-icon-slideshare{ background: #009999; }
+			&.wpautbox-icon-rss{ background: #FF8300; }
+
+			&:hover{
+				background: #333;
+			}
+		}
+	}
+}
+
+.a-tabs.a-tab-content-480{
+	#wpautbox_about .wpautbox-avatar{
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 0px 0px 10px 0px;
+		img{
+			float: none;
+			@include inline-block;
+		}
+	}
+	.wpautbox-author-meta{
+		.wpautbox-name{
+			display: block;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	}	
+}
+@media (max-width: 480px){
+	.a-tabs #wpautbox_about .wpautbox-avatar{
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 0px 0px 10px 0px;
+		img{
+			float: none;
+			@include inline-block;
+		}
+	}
+	.wpautbox-author-meta{
+		.wpautbox-name{
+			display: block;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	}
+}
