@@ -26,15 +26,12 @@ Design your wordpress author box to match your theme by simple selecting colors 
 * Active Tab
 * Active Tab Border
 * Active Tab Background
-
 * Inactive Tab
 * Inactive Tab Border
 * Inactive Tab Background
-
 * Tab Content
 * Tab Content Border
 * Tab Content Background
-
 * Footer Content Border
 * Footer Content Background
 
