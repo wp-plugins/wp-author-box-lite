@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: phpbits
 Donate link: http://codecanyon.net/user/phpbits?ref=phpbits
-Tags:  author, author bio, author bio box, author box, author description, author profile, post author, user, user profile, contact author, agent box, latest properties
+Tags:  author, author bio, author bio box, author box, author description, author profile, post author, user, user profile, contact author, agent box, author tab
 Requires at least: 3.8
 Tested up to: 3.8.1
 Stable tag: 1.0
