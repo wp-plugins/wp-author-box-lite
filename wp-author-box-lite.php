@@ -4,7 +4,7 @@
 Plugin Name: WP Author Box Lite
 Plugin URI: http://wordpress.org/extend/plugins/wp-author-box-lite/
 Description: Awesome Author box that you'll fall inlove with. Adds Author box after every post, pages and custom post types. If you decide to upgrade to <a href="http://codecanyon.net/item/wp-author-box/6815678?ref=phpbits"><strong>WP Author Box Pro</strong></a>, please deactivate WP Author Box Lite first.
-Version: 1.0
+Version: 1.0.1
 Author: phpbits
 Author URI: http://codecanyon.net/user/phpbits?ref=phpbits
 License: GPL2

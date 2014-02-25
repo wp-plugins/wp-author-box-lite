@@ -4,7 +4,7 @@ Donate link: http://codecanyon.net/user/phpbits?ref=phpbits
 Tags:  author, author bio, author bio box, author box, author description, author profile, post author, user, user profile, contact author, agent box, author tab
 Requires at least: 3.8
 Tested up to: 3.8.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,8 @@ For more information,refer to <a href="http://wp-authorbox.phpbitsplugins.com/">
 
 = 1.0 =
 * Initial Plugin release
+= 1.0.1 =
+* Fix Edit Profile Field Issue
 
 == Upgrade Notice ==
 
