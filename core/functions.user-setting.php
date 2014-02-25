@@ -19,7 +19,7 @@ class wpautbox_author_settings{
 	}
 
 	function user_fields( $user ){
-		global $wpautbox_pro;
+		global $wpautbox_lite;
 			$wpautbox_socials = apply_filters('wpautbox-socials',array()); // REMOVE LATER
 	        $wpautbox_socials = apply_filters('wpautbox/socials',$wpautbox_socials);
 			$wpautbox_meta = get_user_meta( $user->ID, 'wpautbox_user_fields', false );
@@ -44,9 +44,9 @@ class wpautbox_author_settings{
 						</td>
 					</tr>
 					<?php 
-					if(isset($wpautbox_pro['social_display']) && 1 == $wpautbox_pro['social_display']){
+					if(isset($wpautbox_lite['social_display']) && 1 == $wpautbox_lite['social_display']){
 						foreach($wpautbox_socials as $key => $field):
-						if(!empty($wpautbox_pro['socials']) && isset($wpautbox_pro['socials'][$key]) && 1 == $wpautbox_pro['socials'][$key]):
+						if(!empty($wpautbox_lite['socials']) && isset($wpautbox_lite['socials'][$key]) && 1 == $wpautbox_lite['socials'][$key]):
 					?>
 					<tr>
 						<th><label for="wpautbox_user_<?php echo $key;?>"><?php _e( $field, 'wpautbox' ); ?></label></th>
