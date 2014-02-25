@@ -71,3 +71,5 @@ For more information,refer to <a href="http://wp-authorbox.phpbitsplugins.com/">
 
 = 1.0 =
 * Initial Plugin release
+= 1.0.1 =
+* Fix Edit Profile Field Issue
