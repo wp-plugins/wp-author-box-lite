@@ -17,6 +17,7 @@ class wpautbox_display{
 		add_filter( 'the_content', array($this, 'build_content'), 10 );
 		add_action( 'wp_enqueue_scripts', array($this, 'enqueue') );
 		add_action('wp_head', array($this, 'wpautbox_wp_head'));
+		add_action('wp_head', array($this, 'facebook_author_meta'));
 		//add_action('init', array($this, 'register_shortcodes')); go pro for this option
 	}
 
@@ -188,7 +189,7 @@ class wpautbox_display{
 			}
 
 			$html .= '<div class="wpautbox-author-meta">';
-				$html .= '<h4 class="wpautbox-name">'. __('About', 'wpautbox') . ' ' . get_the_author_meta( 'first_name', $authorid )  .'</h4>';
+				$html .= '<h4 class="wpautbox-name">'. __('About', 'wpautbox') . ' ' . get_the_author_meta( 'display_name', $authorid )  .'</h4>';
 				if(!empty($wpautbox_meta['user']['wpautbox_tagline'])){
 					$html .= '<span class="wpautbox-tagline">'. __( $wpautbox_meta['user']['wpautbox_tagline'] , 'wpautbox') .'</span>';
 				}
@@ -318,6 +319,27 @@ class wpautbox_display{
 			return $html;
 		}
 	}
+
+	/**
+     * Get the Open Graph for the current author
+     * @since 1.1
+     */
+    function facebook_author_meta() {
+    	global $post;
+    	if(isset($post->post_author) && !empty($post->post_author )){
+    		$wpautbox_meta = get_user_meta( $post->post_author , 'wpautbox_user_fields', false );
+	    	$wpautbox_user_meta = '';
+	    	if(!empty( $wpautbox_meta )){
+				$wpautbox_meta = unserialize( base64_decode($wpautbox_meta[0]) );
+				if(isset( $wpautbox_meta['user'] )){
+					$wpautbox_user_meta = $wpautbox_meta['user'];
+				}
+			}
+			if(!empty($wpautbox_user_meta) && !empty($wpautbox_user_meta['socials']['facebook']) && is_single() ){
+				echo "\n" . '<meta property="article:author" content="' . $wpautbox_user_meta['socials']['facebook'] . '" />' . "\n";
+			}
+    	}
+    }
 
 	/**
 	 * Add Appearance Options value on custom css
