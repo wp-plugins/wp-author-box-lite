@@ -18,6 +18,7 @@ Give identity to your blog posts, pages and custom post types! Author Box Lite c
 * <strong>Responsive</strong> - Desktop, laptop, tablet or mobile phone, WP – Author Box Lite will adjust and look good on it
 * <strong>Fully Customizable</strong> - Make your author box unique and stylish with color options
 * <strong>Google Authorship</strong> - Automatically get Google Authorship verification. Just add Google+ profile link.
+* <strong>Facebook Authorship ( version 1.0.2 )</strong> - Automatically add Facebook Authorship on Posts. Just add Facebook profile link.
 * <strong>Layouts</strong> - Automatically added before or after (or both!) your posts, pages and custom post types
 
 <h4>Fully Customizable</h4>
