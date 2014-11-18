@@ -3,7 +3,7 @@
 /*
 Plugin Name: WP Author Box Lite
 Plugin URI: http://wordpress.org/extend/plugins/wp-author-box-lite/
-Description: Awesome Author box that you'll fall inlove with. Adds Author box after every post, pages and custom post types. If you decide to upgrade to <a href="http://codecanyon.net/item/wp-author-box/6815678?ref=phpbits"><strong>WP Author Box Pro</strong></a>, please deactivate WP Author Box Lite first.
+Description: <a href="http://wp-authorbox.com/" target="_blank">***** WP AUTHOR BOX PRO v2 HAS BEEN RELEASED ***** NOW FINALLY YOU CAN ADD CONTACT AUTHOR TAB WITH GRAVITY FORMS & CONTACT FORM 7 SUPPORT, CO-AUTHOR PLUS SUPPORT & A LOT MORE. UPGRADE NOW!</a> Awesome Author box that you'll fall inlove with. Adds Author box after every post, pages and custom post types. If you decide to upgrade to <a href="http://codecanyon.net/item/wp-author-box/6815678?ref=phpbits"><strong>WP Author Box Pro</strong></a>, please deactivate WP Author Box Lite first.
 Version: 1.0.2
 Author: phpbits
 Author URI: http://codecanyon.net/user/phpbits?ref=phpbits
