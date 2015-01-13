@@ -32,7 +32,7 @@ class wpautbox_display{
             'wpautbox-elusive-icon',
             plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont.css' , dirname(__FILE__) ),
             array(),
-            plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont.css' , dirname(__FILE__) ) ,
+            '',
             'all'
         );
 
@@ -40,7 +40,7 @@ class wpautbox_display{
             'wpautbox-elusive-icon-ie7',
             plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont-ie7.css' , dirname(__FILE__) ),
             array(),
-            plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont-ie7.css' , dirname(__FILE__) ) ,
+            '',
             'all'
         );
 
